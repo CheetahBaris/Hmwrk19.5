@@ -76,9 +76,9 @@ int main()
 	animal[1] = new Cat;
 	animal[2] = new Humster;
 	
-	for (Animal* a : animal)
+	for (Animal* p : animal)
 	{
-		a->Voice();
+		p->Voice();
 	 }
 
 	return 0;
